@@ -1,0 +1,277 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("./assets/fonts/icons/icomoon.eot");
+  src: url("./assets/fonts/icons/icomoon.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/icons/icomoon.woff") format("woff"), url("./assets/fonts/icons/icomoon.ttf") format("truetype"), url("./assets/fonts/icons/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "icomoon";
+  content: attr(data-icon);
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: "BoldFont";
+  src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "RegularFont";
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "LightFont";
+  src: url(./assets/fonts/Roboto-Light.ttf);
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1125px) {
+  .card-lg {
+    width: 160px !important;
+  }
+  .lg-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.font-16 {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.container {
+  min-width: 100%;
+  height: 730px;
+  background-image: url(./assets/media/Background.4dcd5448.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "RegularFont";
+}
+
+.container .navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 70px !important;
+  left: 0;
+  z-index: 20;
+}
+
+.container .navbar .container-fluid .navbar-brand {
+  margin: 0px 60px;
+}
+
+.container .navbar .container-fluid .navbar-brand .navbar-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.container .navbar .container-fluid .navbar-langs {
+  margin-right: 60px;
+}
+
+.container .navbar .container-fluid .navbar-langs ul .lang-div {
+  width: 34px;
+  height: 25px;
+}
+
+.container .navbar .container-fluid .navbar-langs ul .lang-div li {
+  float: left;
+}
+
+.container .navbar .collapse ul .navbar-nav span .nav-active-div {
+  width: auto;
+  height: 10px !important;
+}
+
+.container .text-dark-color {
+  color: #343a40 !important;
+}
+
+.container .active-li {
+  background-color: #431667;
+  opacity: 0.8;
+  text-align: center;
+  border-radius: 3px;
+  color: white !important;
+}
+
+.container .height-class {
+  height: 25px !important;
+}
+
+.container .pointer {
+  cursor: pointer;
+}
+
+.container .main-section {
+  min-width: 100%;
+  height: 700px;
+}
+
+.container .main-section .main-heading #ispanadicto-heading {
+  color: white;
+  font-size: 50px;
+  font-family: "BoldFont";
+}
+
+.container .main-section .main-heading ul li {
+  letter-spacing: 1px;
+}
+
+.container .main-section .main-search .search-form {
+  width: 600px !important;
+  height: 45px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.container .main-section .main-search .search-form .search-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #64229b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  bottom: -19px;
+  right: 2px;
+}
+
+.container .empty-box {
+  width: 100%;
+  height: 70px;
+}
+
+.container .main-cards {
+  width: 1060px;
+  height: 130px;
+  margin: 0 auto;
+}
+
+.container .main-cards .mini-cards .row .m-card-body {
+  width: 191px;
+  height: 100px;
+  background-color: white;
+  margin-left: 26px !important;
+  border-radius: 5px;
+}
+
+.container .main-cards .mini-cards .row .m-card-body .icon-holder img {
+  width: 38px;
+  height: 40px;
+}
+
+.container .text-details {
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.container .main-cards-2 {
+  width: 720px;
+  height: 140px;
+  margin: 0 auto;
+}
+
+.container .main-cards-2 .mini-cards-2-body {
+  height: 140px;
+  border-radius: 10px;
+  border-top: 3px solid #431667;
+}
+
+.container .main-cards-2 .mini-cards-2-body .text-holder-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .main-cards-2 .mini-cards-2-body .text-holder-2 span {
+  font-size: 15px !important;
+}
+
+.container .main-cards-2 .mini-cards-2-body .text-holder-2 .main-words {
+  text-decoration: none;
+  color: #431667;
+  font-size: 15px !important;
+  margin-top: 0px !important;
+}
+
+.container .main-cards-2 .mini-cards-2-body .text-holder-2 .audio-icon {
+  font-size: 12px !important;
+}
+
+.container #border-1 {
+  border-left: 3px solid #a155ed;
+}
+
+.container #border-2 {
+  border-left: 3px solid #ed5555;
+}
+
+.container #border-3 {
+  border-left: 3px solid #5bd759;
+}
+
+.container #border-4 {
+  border-left: 3px solid #ff8a35;
+}
+
+.container .sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container .footer-section {
+  min-width: 70%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.container .footer-section .footer-texts {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.container .footer-section .icon-font {
+  font-size: 25px;
+  color: #431667;
+}
+/*# sourceMappingURL=index.css.map */

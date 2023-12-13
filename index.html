@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap-grid.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap/css/bootstrap-grid.min.css"
+    />
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="header-section">
+          <header>
+            <div class="nav-bar-1">
+              <nav
+                class="navbar navbar-expand-lg navbar-light bg-light navbar-wrapper sticky-nav"
+              >
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"
+                    ><img
+                      class="navbar-icon ml-4"
+                      src="./assets/media/new-logo.d025a21a.png"
+                      alt=""
+                  /></a>
+                  <div class="after-box"></div>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <span class="nav-active-div text-center">
+                        <li class="nav-item px-2 font-16">
+                          <a
+                            onclick="clivkNav(0)"
+                            class="nav-link active text-muted active-li nav-elements height-class d-flex justify-content-center align-items-center mt-1"
+                            aria-current="page"
+                            href="#"
+                            >Ana səhifə</a
+                          >
+                        </li>
+                      </span>
+                      <span class="nav-active-div text-center">
+                        <li class="nav-item px-2 font-16">
+                          <a
+                            onclick="clivkNav(1)"
+                            class="nav-link active text-muted nav-elements height-class d-flex justify-content-center align-items-center mt-1"
+                            aria-current="page"
+                            href="#"
+                            >Xidmətlərimiz</a
+                          >
+                        </li>
+                      </span>
+                      <span class="nav-active-div text-center">
+                        <li class="nav-item px-2 font-16">
+                          <a
+                            onclick="clivkNav(2)"
+                            class="nav-link active text-muted nav-elements height-class d-flex justify-content-center align-items-center mt-1"
+                            aria-current="page"
+                            href="#"
+                            >Bizi tanı</a
+                          >
+                        </li>
+                      </span>
+                      <span class="nav-active-div text-center">
+                        <li class="nav-item px-2 font-16">
+                          <a
+                            onclick="clivkNav(3)"
+                            class="nav-link active text-muted nav-elements height-class d-flex justify-content-center align-items-center mt-1"
+                            aria-current="page"
+                            href="#"
+                            >Əlaqə</a
+                          >
+                        </li>
+                      </span>
+                    </ul>
+                  </div>
+                  <div class="navbar-langs text-center mt-4 text-dark-color">
+                    <ul>
+                      <span
+                        onclick="ClickLiFunction(0)"
+                        class="az-lang lang-div d-inline-block float-start bg-1 bg-2 pointer active-li"
+                      >
+                        <li class="nav-item px-2 font-16 list-unstyled">Az</li>
+                      </span>
+                      <span
+                        onclick="ClickLiFunction(1)"
+                        class="es-lang lang-div d-inline-block float-start pointer"
+                      >
+                        <li class="nav-item px-2 font-16 list-unstyled mr-4">
+                          Es
+                        </li>
+                      </span>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </header>
+        </div>
+        <div class="main-section col-12 col-md-12 col-sm-12">
+          <main>
+            <div class="empty-box"></div>
+            <div
+              class="main-heading mt-5 d-flex justify-content-center align-items-center col-md-12 col-sm-8 col-6"
+            >
+              <ul>
+                <li id="ispanadicto-heading" class="list-unstyled text-center">
+                  Ispanadicto
+                </li>
+                <li class="text-white list-unstyled text-center">
+                  Azərbaycanın ilk onlayn ispan dili platforması
+                </li>
+              </ul>
+            </div>
+            <div
+              class="main-search d-flex justify-content-center align-items-center"
+            >
+              <div class="search-form">
+                <label for="inputPassword5" class="form-label"></label>
+                <input
+                  type="password"
+                  id="search-form"
+                  class="form-control search-form"
+                  aria-describedby="passwordHelpBlock"
+                  placeholder="Axtarın..."
+                />
+                <div class="search-icon">
+                  <span
+                    aria-hidden="true"
+                    data-icon="&#xe986;"
+                    class="down-arrow text-white"
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="main-cards mt-5 d-flex justify-content-center align-items-center lg-center"
+            >
+              <div class="mini-cards lg-m-auto">
+                <div class="row">
+                  <div class="m-card-body pointer card-lg" id="border-1">
+                    <div
+                      class="icon-holder d-flex justify-content-center align-items-center mt-2"
+                    >
+                      <img src="./assets/media/indir.png" alt="" />
+                    </div>
+                    <div
+                      class="text-holder d-flex justify-content-center align-items-center mt-2"
+                    >
+                      <span class="text-dark-color text-details">Tərcümə</span>
+                    </div>
+                  </div>
+                  <div class="m-card-body pointer card-lg" id="border-2">
+                    <div
+                      class="icon-holder d-flex justify-content-center align-items-center mt-2"
+                    >
+                      <img src="./assets/media/indir (1).png" alt="" />
+                    </div>
+                    <div
+                      class="text-holder d-flex justify-content-center align-items-center mt-2"
+                    >
+                      <span class="text-dark-color text-details"
+                        >Təsriflənmə</span
+                      >
+                    </div>
+                  </div>
+                  <div class="m-card-body pointer card-lg" id="border-3">
+                    <div
+                      class="icon-holder d-flex justify-content-center align-items-center mt-2"
+                    >
+                      <img src="./assets/media/indir (4).png" alt="" />
+                    </div>
+                    <div
+                      class="text-holder d-flex justify-content-center align-items-center mt-2"
+                    >
+                      <span class="text-dark-color text-details">Sözlük</span>
+                    </div>
+                  </div>
+                  <div class="m-card-body pointer card-lg" id="border-4">
+                    <div
+                      class="icon-holder d-flex justify-content-center align-items-center mt-2"
+                    >
+                      <img src="./assets/media/indir (3).png" alt="" />
+                    </div>
+                    <div
+                      class="text-holder d-flex justify-content-center align-items-center mt-2"
+                    >
+                      <span class="text-dark-color text-details"
+                        >Məqalələr</span
+                      >
+                    </div>
+                  </div>
+                  <div class="m-card-body pointer card-lg" id="border-4">
+                    <div
+                      class="icon-holder d-flex justify-content-center align-items-center mt-2"
+                    >
+                      <img src="./assets/media/indir (2).png" alt="" />
+                    </div>
+                    <div
+                      class="text-holder d-flex justify-content-center align-items-center mt-2"
+                    >
+                      <span class="text-dark-color text-details">Mətnlər</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="main-cards-2 mt-5 d-flex justify-content-between align-items-center"
+            >
+              <div class="mini-cards-2-body mt-2 col-md-6 shadow p-3 m-2 pointer bg-light">
+                <div
+                  class="icon-holder-2 d-flex justify-content-center align-items-center"
+                >
+                  <img src="./assets/media/indir (5).png" alt="" />
+                </div>
+                <div
+                  class="text-holder-2 d-flex justify-content-center align-items-center mt-2"
+                >
+                  <span class="text-dark-color text-details"
+                    >Ən çox axtarılan söz</span
+                  >
+                  <span class="text-details main-words mt-1" href="">tiempo<span
+                    onclick="playAudio1()"
+                    aria-hidden="true"
+                    data-icon="&#xe900;"
+                    class="down-arrow ml-1 audio-icon"
+                  ></span</span>
+                </div>
+              </div>
+              <div class="mini-cards-2-body mt-2 col-md-6 shadow p-3 m-2 bg-light">
+                <div
+                  class="icon-holder-2 d-flex justify-content-center align-items-center"
+                >
+                  <img src="./assets/media/indir (6).png" alt="" />
+                </div>
+                <div
+                  class="text-holder-2 d-flex justify-content-center align-items-center mt-2"
+                >
+                  <span class="text-dark-color text-details"
+                    >Günün sözü</span>
+                  <span class="text-details main-words mt-1" href="">Tauro<span
+                    onclick="playAudio2()"
+                    aria-hidden="true"
+                    data-icon="&#xe900;"
+                    class="down-arrow ml-1 audio-icon"
+                  ></span
+                ></span>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+        <div class="footer-section">
+          <footer>
+            <div class="footer-1 d-flex align-items-center justify-content-between">
+              <div class="footer-texts text-secondary">
+                <span>Ispanadicto © 2020 Bütün hüquqlar qorunur</span>
+              </div>
+              <div class="footer-icons">
+                <ul class="list-unstyled mr-4 d-flex justify-content-between">
+                  <li><span aria-hidden="true" data-icon="&#xea91;" class="down-arrow icon-font ml-4"></span></li>
+                  <li><span aria-hidden="true" data-icon="&#xea92;" class="down-arrow icon-font ml-4"></span></li>
+                  <li><span aria-hidden="true" data-icon="&#xea96;" class="down-arrow icon-font ml-4"></span></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  <script src="./index.js"></script>
+</html>
